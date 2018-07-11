@@ -5,15 +5,16 @@ rainbow_colors = [
 ]
 
 def change_rainbow_colors
-  return rainbow_colors = []
-  return rainbow_colors[0] = "red"
-  return rainbow_colors[1] = "light_red"
-  return rainbow_colors[2] = "light_yellow"
+  rainbow_colors = []
+  rainbow_colors[0] = "red"
+  rainbow_colors[1] = "light_red"
+  rainbow_colors[2] = "light_yellow"
+  return rainbow_colors
 end
 
 def add_colors
-  return rainbow_colors.push["Green"]
-  return rainbow_colors.push["Blue"]
+  rainbow_colors.push["Green"]
+  rainbow_colors.push["Blue"]
 end
 
 puts add_colors
