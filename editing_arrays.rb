@@ -5,7 +5,11 @@ rainbow_colors = [
 ]
 
 def change_rainbow_colors
-  return rainbow_colors.pull["yellow"]
+  return rainbow_colors = []
+  return rainbow_colors[0] = "red"
+  return rainbow_colors[1] = "light_red"
+  return rainbow_colors[2] = "green"
+  return rainbow_colors[3] = "blue"
 end
 
 def add_colors
